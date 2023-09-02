@@ -1,0 +1,7 @@
+# Your Push Token.  (Obtain from Codename One Settings)
+cn1.pushToken=xxxxxxxxxxxxxxxxxxx
+
+# Your FCM Server API Key.  (Obtain from Firebase Console)
+# See https://www.codenameone.com/blog/push-cheatsheet.html
+# IMPORTANT: Currently requires you to enable Legacy Server Key in Firebase Console
+fcm.apiKey=AxxxxxxxxxxY:AxxxxxxxxxxxxxxxxxxxxxxxxxxxxD-lxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxO

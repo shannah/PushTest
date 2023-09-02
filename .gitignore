@@ -1,0 +1,4 @@
+target
+common/src/main/resources/app.properties
+common/codenameone_settings.properties
+android/src/main/resources/google-services.json

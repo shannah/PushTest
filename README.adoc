@@ -1,0 +1,41 @@
+= Codename One Push Demo (FCM Only)
+
+This project demonstrates the user of Codename One's push API with FCM (Firebase Cloud Messaging). It is a simple demo that shows how to register for push and how to send a push message to the device. It also shows how to handle push messages when the app is in the foreground and when it is in the background.
+
+image:docs/images/PushTest.gif[width=300]
+
+== Setup
+
+To use this demo you need to do the following:
+
+=== Basic Project Setup:
+
+. Copy the `src/common/codenameone_settings.properties.example` file to `src/common/codenameone_settings.properties`.
+. Refactor the project to change the `ca.weblite.testpush` to a custom package for your project, and update `codename1.packageName` property in `codenameone_settings.properties` to match.
+. Set standard properties (e.g. Android keystore) in Codename One Settings UI (or directly in the `codenameone_settings.properties` file).
+
+=== Push-Specific Setup
+
+. Create a Firebase project at https://console.firebase.google.com
+. Add an Android app to the project, with a package name matching the one you set in the Codename One Settings UI.
+. Download the `google-services.json` file and place it in the `android/src/main/resources` directory of this project.
+. Enable Firebase Cloud Messaging Legacy API in the Firebase project settings.
+. Copy the `common/src/main/resources/app.properties.example` file to `common/src/main/resources/app.properties` and fill in the values for `fcm.apiKey` and `cn1.pushToken` from the Firebase project settings and the Codename One Settings UI respectively.
+. Build the project for Android and install it on a device.
+
+== Usage
+
+1. Open the app on your Android device.
+2. Type a message into the text field and press the "Send Push" button.
+3. There is an intentional 4-second delay before the push will actually be sent to give you time to switch to another app or the home screen, if you want to see what the push looks like with the app in the background.
+4. Observe that you receive the push message.
+
+== Notable Build Hints
+
+This project includes the following build-hints that are relevant to push:
+
+. `android.newFirebaseMessaging=true` - This enables the new Firebase Cloud Messaging API. This is required for Android 33+.
+. `android.NotificationChannel.importance=4` - (Optional - raises importance of push notifications so that they make a sound and appear in the notification tray even when the app is in the foreground).
+. `android.useAndroidX=true`. Required for the new Firebase Cloud Messaging API.
+
+

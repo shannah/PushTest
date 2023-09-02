@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/testpush.iml" filepath="$PROJECT_DIR$/.idea/testpush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/testpush-common.iml" filepath="$PROJECT_DIR$/common/testpush-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javase/testpush-javase.iml" filepath="$PROJECT_DIR$/javase/testpush-javase.iml" />
+    </modules>
+  </component>
+</project>
