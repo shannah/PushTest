@@ -4,6 +4,8 @@ This project demonstrates the user of Codename One's push API with FCM (Firebase
 
 image:docs/images/PushTest.gif[width=300]
 
+link:dist/testpush-android-sources-2-debug.apk[Download APK]
+
 == Setup
 
 To use this demo you need to do the following:

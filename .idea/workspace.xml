@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="" />
+    <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,11 +45,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/Users/shannah/Downloads/testpush/common"
+    "last_opened_file_path": "/Users/shannah/Downloads/testpush/dist"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/common" />
       <recent name="$PROJECT_DIR$/docs/images" />
       <recent name="$PROJECT_DIR$/common/src/main/resources" />
